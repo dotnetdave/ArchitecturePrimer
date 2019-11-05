@@ -1,0 +1,4 @@
+2019-11-05 13:49:08.2152 | INFO | 0, Culture=neutral, PublicKeyToken=null]][] | Request from GetHomeQuery : No request values
+2019-11-05 13:49:09.8862 | WARN | 0, Culture=neutral, PublicKeyToken=null]][] | Detected Long Running Request: "GetHomeQuery" (1675 milliseconds) "No request values"
+2019-11-05 13:52:19.5479 | INFO | 0, Culture=neutral, PublicKeyToken=null]][] | Request from GetHomeQuery : No request values
+2019-11-05 13:52:34.0276 | INFO | 0, Culture=neutral, PublicKeyToken=null]][] | Request from GetHomeQuery : No request values

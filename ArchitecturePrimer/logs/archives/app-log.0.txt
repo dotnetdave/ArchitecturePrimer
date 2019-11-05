@@ -1,0 +1,34 @@
+2019-11-04 14:19:49.9687 | INFO | ArchitecturePrimer.Controllers.HomeController | Homepage start
+2019-11-04 14:19:50.1024 | INFO | MediatR.IPipelineBehavior`2[[ArchitecturePrimer.Application.Home.Queries.GetHomeQuery, ArchitecturePrimer.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ArchitecturePrimer.Application.ViewModels.Home.HomeViewModel, ArchitecturePrimer.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]][] | Request from GetHomeQuery : ArchitecturePrimer.Application.Home.Queries.GetHomeQuery
+2019-11-04 14:19:51.9355 | WARN | MediatR.IPipelineBehavior`2[[ArchitecturePrimer.Application.Home.Queries.GetHomeQuery, ArchitecturePrimer.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ArchitecturePrimer.Application.ViewModels.Home.HomeViewModel, ArchitecturePrimer.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]][] | Northwind Long Running Request: "GetHomeQuery" (1836 milliseconds) "ArchitecturePrimer.Application.Home.Queries.GetHomeQuery"
+2019-11-04 14:19:51.9923 | INFO | ArchitecturePrimer.Controllers.HomeController | Homepage has model
+2019-11-04 14:22:31.1163 | INFO | HomeController | Homepage start
+2019-11-04 14:22:31.2699 | INFO | 0, Culture=neutral, PublicKeyToken=null]][] | Request from GetHomeQuery : ArchitecturePrimer.Application.Home.Queries.GetHomeQuery
+2019-11-04 14:22:32.8976 | WARN | 0, Culture=neutral, PublicKeyToken=null]][] | Northwind Long Running Request: "GetHomeQuery" (1631 milliseconds) "ArchitecturePrimer.Application.Home.Queries.GetHomeQuery"
+2019-11-04 14:22:32.9275 | INFO | HomeController | Homepage has model
+2019-11-04 14:36:52.0000 | INFO | 0, Culture=neutral, PublicKeyToken=null]][] | Request from GetHomeQuery : ArchitecturePrimer.Application.Home.Queries.GetHomeQuery
+2019-11-04 14:36:54.0036 | WARN | 0, Culture=neutral, PublicKeyToken=null]][] | Detected Long Running Request: "GetHomeQuery" (2011 milliseconds) "ArchitecturePrimer.Application.Home.Queries.GetHomeQuery"
+2019-11-04 14:36:54.0585 | ERROR | HomeController | Home model is null
+2019-11-04 14:38:08.4896 | INFO | 0, Culture=neutral, PublicKeyToken=null]][] | Request from GetHomeQuery : ArchitecturePrimer.Application.Home.Queries.GetHomeQuery
+2019-11-04 14:38:09.6714 | INFO | 0, Culture=neutral, PublicKeyToken=null]][] | Request from GetHomeQuery : ArchitecturePrimer.Application.Home.Queries.GetHomeQuery
+2019-11-04 14:38:10.3107 | INFO | 0, Culture=neutral, PublicKeyToken=null]][] | Request from GetHomeQuery : ArchitecturePrimer.Application.Home.Queries.GetHomeQuery
+2019-11-04 14:38:10.6578 | INFO | 0, Culture=neutral, PublicKeyToken=null]][] | Request from GetHomeQuery : ArchitecturePrimer.Application.Home.Queries.GetHomeQuery
+2019-11-04 14:41:59.5871 | INFO | 0, Culture=neutral, PublicKeyToken=null]][] | Request from GetHomeQuery : ArchitecturePrimer.Application.Home.Queries.GetHomeQuery
+2019-11-04 14:41:59.7268 | INFO | 0, Culture=neutral, PublicKeyToken=null]][] | Request from GetHomeQuery : ArchitecturePrimer.Application.Home.Queries.GetHomeQuery
+2019-11-04 14:41:59.8674 | INFO | 0, Culture=neutral, PublicKeyToken=null]][] | Request from GetHomeQuery : ArchitecturePrimer.Application.Home.Queries.GetHomeQuery
+2019-11-04 14:42:00.0569 | INFO | 0, Culture=neutral, PublicKeyToken=null]][] | Request from GetHomeQuery : ArchitecturePrimer.Application.Home.Queries.GetHomeQuery
+2019-11-04 14:42:00.2055 | INFO | 0, Culture=neutral, PublicKeyToken=null]][] | Request from GetHomeQuery : ArchitecturePrimer.Application.Home.Queries.GetHomeQuery
+2019-11-04 15:03:35.2994 | INFO | 0, Culture=neutral, PublicKeyToken=null]][] | Request from GetHomeQuery : ArchitecturePrimer.Application.Home.Queries.GetHomeQuery
+2019-11-04 15:03:37.2143 | WARN | 0, Culture=neutral, PublicKeyToken=null]][] | Detected Long Running Request: "GetHomeQuery" (1914 milliseconds) "ArchitecturePrimer.Application.Home.Queries.GetHomeQuery"
+2019-11-04 15:03:49.0797 | INFO | 0, Culture=neutral, PublicKeyToken=null]][] | Request from GetHomeQuery : ArchitecturePrimer.Application.Home.Queries.GetHomeQuery
+2019-11-04 15:06:59.4920 | INFO | 0, Culture=neutral, PublicKeyToken=null]][] | Request from GetHomeQuery : No request values
+2019-11-04 15:07:01.7629 | WARN | 0, Culture=neutral, PublicKeyToken=null]][] | Detected Long Running Request: "GetHomeQuery" (2274 milliseconds) "No request values"
+2019-11-04 15:19:04.3965 | INFO | 0, Culture=neutral, PublicKeyToken=null]][] | Request from GetHomeQuery : No request values
+2019-11-04 15:19:28.4637 | INFO | 0, Culture=neutral, PublicKeyToken=null]][] | Request from GetHomeQuery : No request values
+2019-11-04 15:19:28.8387 | INFO | 0, Culture=neutral, PublicKeyToken=null]][] | Request from GetHomeQuery : No request values
+2019-11-04 15:19:29.1948 | INFO | 0, Culture=neutral, PublicKeyToken=null]][] | Request from GetHomeQuery : No request values
+2019-11-04 15:19:29.4491 | INFO | 0, Culture=neutral, PublicKeyToken=null]][] | Request from GetHomeQuery : No request values
+2019-11-04 15:19:29.5458 | INFO | 0, Culture=neutral, PublicKeyToken=null]][] | Request from GetHomeQuery : No request values
+2019-11-04 15:19:29.6905 | INFO | 0, Culture=neutral, PublicKeyToken=null]][] | Request from GetHomeQuery : No request values
+2019-11-04 15:19:29.8440 | INFO | 0, Culture=neutral, PublicKeyToken=null]][] | Request from GetHomeQuery : No request values
+2019-11-04 15:19:29.9767 | INFO | 0, Culture=neutral, PublicKeyToken=null]][] | Request from GetHomeQuery : No request values

@@ -1,0 +1,94 @@
+﻿@model  ArchitecturePrimer.Application.ViewModels.Home.HomeViewModel
+
+@{
+    ViewBag.Title = Model.Title;
+}
+
+
+
+@*<div class="jumbotron">
+        <h1>@Model.HeroText</h1>
+        <p class="lead">@Model.Description</p>
+        <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    </div>*@
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="https://picsum.photos/id/400/2500/600?random=1" alt="...">
+            <div class="carousel-caption">
+                <p class="lead">@Model.Description</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="https://picsum.photos/id/921/2500/600?random=2" alt="...">
+            <div class="carousel-caption">
+                <p class="lead">@Model.Description</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="https://picsum.photos/id/675/2500/600?random=3" alt="...">
+            <div class="carousel-caption">
+                <p class="lead">@Model.Description</p>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+<div class="container body-content">
+    <div class="row">
+        @foreach (var feature in Model.Features)
+        {
+            <div class="col-md-4">
+                <h2>@feature.Title</h2>
+                <p>
+                    @feature.Description
+                </p>
+                <p class="small">
+                    Posted: @feature.PostedDate
+                </p>
+                <p><a class="btn btn-danger" href="@feature.Link">@feature.LinkText &raquo;</a></p>
+            </div>
+        }
+    </div>
+
+    <hr />
+
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Latest Tweets</h2>
+        </div>
+        @foreach (var tweet in Model.Tweets)
+        {
+            <div class="col-md-3">
+                <h3>@tweet.TwitterUserScreenName (@tweet.TwitterUserTweetsCount)</h3>
+                <p>
+                    @tweet.Text
+                </p>
+                <p class="small">
+                    Posted: @tweet.CreatedAt
+                </p>
+                <p><a class="btn btn-default" href="@tweet.Link">View Tweet &raquo;</a></p>
+            </div>
+        }
+    </div>
+</div>
